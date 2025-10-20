@@ -1,20 +1,17 @@
-# SoftX
+# Guinea SoftX
 
-A soft and comfy feel for Discord.
+A soft and comfy feel for Discord. But with some fixes and a transpent settings page. It also works with all the discord color themes, _you can use the vencord plugin to enable all them without nitro_
 
-![Server Chat](https://i.imgur.com/E57gF3L.png)
-![Server Search](https://i.imgur.com/nqgmfT0.png)
-![Settings](https://i.imgur.com/KEC161G.png)
+![Server Chat](https://github.com/Guineapigboyx/Guinea-SoftX/blob/main/Images/Themes.webp?raw=true)
+![Settings](https://github.com/Guineapigboyx/Guinea-SoftX/blob/main/Images/Settings.png?raw=true)
 
 ## Download
 
-BetterDiscord Download: [https://betterdiscord.app/theme/SoftX](https://betterdiscord.app/Download?id=515)  
-Powercord Install: `git clone https://github.com/DiscordStyles/SoftX --branch deploy`  
-Vencord link: `https://raw.githubusercontent.com/DiscordStyles/SoftX/deploy/SoftX.theme.css`
-
-## Contributing
-
-Looking to contribute to SoftX theme? Read the the [contributing.md](https://github.com/DiscordStyles/SoftX/blob/main/CONTRIBUTING.md) file.
+SoftX accent color: [Download](https://github.com/Guineapigboyx/Guinea-SoftX/releases/download/The-Main/Guinea-Softx-Green-Accents.css)        
+ Preview with [Under the sea](https://github.com/user-attachments/assets/4b1245c0-8fd7-41a8-9c64-3bded4a62e05)
+   
+PurpleThat accent color: [Download](https://github.com/Guineapigboyx/Guinea-SoftX/releases/download/The-Main/Guinea-Softx-Purple-accents.css)      
+Preview with the custom [Under the sea](https://github.com/user-attachments/assets/230b6bdc-65d7-45fc-87f6-ca15d9646720)
 
 ## License
 
