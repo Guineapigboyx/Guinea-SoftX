@@ -10,7 +10,7 @@ A soft and comfy feel for Discord. But with some fixes and a transpent settings 
 SoftX accent color: [Download](https://github.com/Guineapigboyx/Guinea-SoftX/releases/download/The-Main/Guinea-Softx-Green-Accents.css)        
  Preview with [Under the sea](https://github.com/user-attachments/assets/4b1245c0-8fd7-41a8-9c64-3bded4a62e05)
    
-PurpleThat accent color: [Download](https://github.com/Guineapigboyx/Guinea-SoftX/releases/download/The-Main/Guinea-Softx-Purple-accents.css)      
+Purple accent color: [Download](https://github.com/Guineapigboyx/Guinea-SoftX/releases/download/The-Main/Guinea-Softx-Purple-accents.css)      
 Preview with the custom [Under the sea](https://github.com/user-attachments/assets/230b6bdc-65d7-45fc-87f6-ca15d9646720)
 
 ## License
