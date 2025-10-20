@@ -1086,40 +1086,32 @@ body,
 
 /* Guinea-softx additions */
 
-/* remove extra buttons */
+/* Guinea-softx additions */
 
-.linkButton__972a0 {
+/* remove nitro/shop buttons */
+.content_d125d2 > li:nth-child(3),
+.content_d125d2 > li:nth-child(4),
+.content_d125d2 > li:nth-child(3) {
   display: none;
 }
-.button__201d5 .contents__201d5.button__24af7 {
+.buttons__74017 > div:nth-child(1),
+.buttons__74017 > div:nth-child(5) {
   display: none;
 }
-.button_e6e74f.button__201d5.lookBlank__201d5.colorBrand__201d5.grow__201d5 {
-  display: none;
-}
-/* resize new server/discover button */
-.tutorialContainer__650eb {
-  transform: scale(70%) translateY(-6pt);
-}
-div.sidebar_c48ade.theme-dark.images-dark
-  > nav
+/*change spaceing of buttons above dm list*/
+.friendsButtonContainer__35e86 > li > div > a,
+.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2
   > ul
+  > li:nth-child(5)
   > div
-  > div
-  > div:nth-child(6) {
-  transform: scale(70%) translateY(-24pt);
+  > a {
+  padding-top: 7.5pt !important;
+  padding-bottom: 7.5pt !important;
 }
-div.sidebar_c48ade.theme-dark.images-dark
-  > nav
-  > ul
-  > div
-  > div
-  > div:nth-child(6)
-  > div.pill__5bc7e
-  > div {
-  display: none;
+.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2 > ul > h2 {
+  padding-top: 0pt !important;
+  padding-bottom: 14pt !important;
 }
-
 /* adjust spaceing of a few things */
 .wrapper_cc5dd2 {
   transform: scale(107%) translateX(1px);
@@ -1222,18 +1214,6 @@ video[class*="mirror"] {
 div.buttons__74017 > div.button__74017.button__24af7 {
   display: none;
 }
-
-/* No Vesktop
-
-.container_a55fdc {display: none !important;}
-.modalSize_a55fdc {width: 150%; height: 193%; background-color: #43375a; padding: 10pt;border-radius:20pt }
-.modalSize_a55fdc.border_a55fdc.root__49fc1.fullscreenOnMobile__49fc1.rootWithShadow__49fc1 {margin-left: -25%;}
-.sourceScroller_a2de16.thin_d125d2.scrollerBase_d125d2 {height: 193% !important;}
-.modalSize_a55fdc > div.modalContent_a55fdc.checkboxRow__885c5 {display: none !important;}
-.cancelButton_a55fdc.button__201d5.lookLink__201d5 {display: none !important;}
-div.sidebar_c48ade > nav > ul > div > div > div:nth-child(6) {display: none !important;}*/
-
-/*Guinea softx 2.0 stuff*/
 
 /*old softx settings background*/
 #app-mount .standardSidebarView__23e6b {
@@ -1353,7 +1333,7 @@ div.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2
 }
 
 /*add blur to all unfocused background*/
-.scrim_d9cec8 {
+.scrim__40128 {
   background: var(--bg-primary);
   backdrop-filter: blur(var(--backdrop-blur));
 }
@@ -1384,9 +1364,4 @@ div.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2
 /*very bright blue glow at the bottom of server list fix*/
 .sidebar_c48ade.theme-dark.images-dark {
   background: var(--bg-primary);
-}
-
-/* remove the top header */
-.visual-refresh {
-  --custom-app-top-bar-height: 0;
 }
