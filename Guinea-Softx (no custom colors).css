@@ -1342,3 +1342,26 @@ div.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2
 .visual-refresh {
   --custom-app-top-bar-height: 0;
 }
+
+/* resize new server/discover button */
+.tutorialContainer__650eb {
+  transform: scale(70%) translateY(-6pt);
+}
+div.sidebar_c48ade.theme-dark.images-dark
+  > nav
+  > ul
+  > div
+  > div
+  > div:nth-child(6) {
+  transform: scale(70%) translateY(-24pt);
+}
+div.sidebar_c48ade.theme-dark.images-dark
+  > nav
+  > ul
+  > div
+  > div
+  > div:nth-child(6)
+  > div.pill__5bc7e
+  > div {
+  display: none;
+}
