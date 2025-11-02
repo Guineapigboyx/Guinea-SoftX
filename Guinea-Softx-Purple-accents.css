@@ -1389,3 +1389,25 @@ div.sidebar_c48ade.theme-dark.images-dark
   display: none;
 }
 
+/* New fixes 1.1 */
+
+/*bug fix confirm settings button*/
+div.noticeRegion__23e6b.slider__4e371 {z-index: 99999;}
+
+/* Get rid of on the edge of the server list */
+.sidebarList__5e434 {
+  border-width: 0pt;
+  border-radius: 0pt;}
+
+/* Vc pannel (that one thing in the bottom left below the servers) take up entire bottom left */
+.content__5e434 > div.sidebar__5e434.theme-dark.images-dark > section {
+  left: 0pt;
+  bottom: 0pt;
+  border-radius: 0pt;
+  width: 100%;
+}
+
+/* Make it so the server list will not be over laped by the VC pannel */
+.sidebarList__5e434 {
+  margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) - 16px) !important;
+}
