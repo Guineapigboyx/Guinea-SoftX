@@ -1133,6 +1133,8 @@ body,
   --red-new-45: #d400ff;
 }
 
+/* outdated does not work in newest discord version. If you want these colors look in Extras.MD*/
+/*
 .custom-theme-background {
   --bg-gradient-under-the-sea-1: #87abff !important;
   --bg-gradient-under-the-sea-2: #31446d !important;
@@ -1145,6 +1147,7 @@ body,
   --theme-base-color: #40276d !important;
   --button-filled-brand-background: #5930a6 !important;
 }
+*/
 
 .visual-refresh.theme-dark {
   --background-mentioned: #291a44 !important;
