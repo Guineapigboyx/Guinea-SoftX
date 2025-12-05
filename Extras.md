@@ -69,6 +69,10 @@ If there is a setting button you don't want to remove from this list just delate
 
 ` div.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2 > ul > div.wrapper__553bf {display: none;} `
 
+## Remove Nitro Button Above DMS
+
+`div.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2 > ul > div:nth-child(3) {display: none;}`
+
 ## Remove Activities Button to the right of the emoji button
 
 `.buttonContainer_e6e74f.app-launcher-entrypoint {display: none;}`
