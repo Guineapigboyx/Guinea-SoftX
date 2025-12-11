@@ -1,9 +1,8 @@
 # Guinea SoftX
 
-A soft and comfy feel for Discord. But with some fixes and a transpent settings page. It also works with all the discord color themes, _you can use the vencord plugin to enable all them without nitro_
+A soft and comfy feel for Discord. But with A ton of fixes. It also works with all the discord color themes, _you can use the vencord plugin to enable all them without nitro_
 
 ![Server Chat](https://github.com/Guineapigboyx/Guinea-SoftX/blob/main/Images/Themes.webp?raw=true)
-![Settings](https://github.com/Guineapigboyx/Guinea-SoftX/blob/main/Images/Settings.png?raw=true)
 
 ## Download
 
