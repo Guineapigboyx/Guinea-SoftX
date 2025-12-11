@@ -1086,16 +1086,6 @@ body,
 
 /* Guinea-softx additions */
 
-/* remove nitro/shop buttons */
-.content_d125d2 > li:nth-child(3),
-.content_d125d2 > li:nth-child(4),
-.content_d125d2 > li:nth-child(3) {
-  display: none;
-}
-.buttons__74017 > div:nth-child(1),
-.buttons__74017 > div:nth-child(5) {
-  display: none;
-}
 /*change spaceing of buttons above dm list*/
 .friendsButtonContainer__35e86 > li > div > a,
 .scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2
@@ -1182,64 +1172,14 @@ video[class*="mirror"] {
   transform: none !important;
 }
 
-/* remove the gift nitro button */
-div.buttons__74017 > div.button__74017.button__24af7 {
-  display: none;
-}
-
 /*old softx settings background*/
 #app-mount .standardSidebarView__23e6b {
   background: var(--bg-primary);
   backdrop-filter: blur(var(--backdrop-blur));
 }
 
-#app-mount .contentRegionScroller__23e6b,
-.contentRegion__23e6b,
-.sidebarRegionScroller__23e6b {
-  background: transparent;
-}
+/*fix my acount section of settings */
 
-#app-mount .closeButton_c2b141 {
-  width: 130vw;
-  height: 130vh;
-  position: absolute;
-  border-radius: 0pt;
-  transform: translate(-100vw, -15vh);
-  background: transparent;
-  z-index: 300;
-}
-
-.container_c2b141 {
-  display: unset;
-}
-
-#guild-list-unread-dms > div > div {
-  margin-bottom: 33pt !important;
-}
-
-.layer__960e4 {
-  opacity: 100 !important;
-  background: none;
-}
-
-/*width of the settings pag*/
-.contentColumn__23e6b {
-  z-index: 9999;
-  max-width: 70%;
-}
-
-.sidebarRegion__23e6b {
-  margin-left: 200pt;
-  max-width: 10pt;
-}
-
-.settingsPage_f131e9 {
-  z-index: 9999;
-}
-
-/*hide exit button in settings*/
-.keybind_c2b141,
-.closeButton_c2b141 > svg,
 .accountProfileCard__1fed1 > .mask__68edb,
 div.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2
   > ul
@@ -1247,7 +1187,6 @@ div.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2
   display: none;
 }
 
-/*fix my acount section of settings */
 .wrapper__44b0c.avatar__1fed1 {
   transform: translateY(-55pt);
 }
@@ -1404,4 +1343,12 @@ div.noticeRegion__23e6b.slider__4e371 {
   font-weight: 400;
   line-height: 1.2;
   color: var(--text-muted);
+}
+
+/* hide gift shop button and Gift Nitro button on message bar */
+div.buttons__74017 > div.container_c0c49a,
+div.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2
+  > ul
+  > li:nth-child(4) {
+  display: none;
 }
