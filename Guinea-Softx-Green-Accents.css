@@ -479,7 +479,7 @@
 }
 
 :root {
-  --softx-version: "2.0.0-alpha";
+  --softx-version: "2.0.0-alpha (Guinea 1.3)";
   --transition: 0.15s ease;
   --chat-glow-intensity: var(--glow-intensity);
   --channel-glow-intensity: var(--glow-intensity);
@@ -575,7 +575,12 @@ body,
   border-right: 1px solid var(--bg-border);
   margin-bottom: var(--custom-app-panels-height);
 }
-#app-mount div.stack_dbd263:not(fieldset > div.stack_dbd263, [role="group"]) {
+#app-mount
+  div.stack_dbd263:not(
+    fieldset > div.stack_dbd263,
+    div.panel__6131a > div > div > div,
+    [role="group"]
+  ) {
   gap: 0 !important;
 }
 #app-mount .guildSeparator__252b6 {
@@ -1335,7 +1340,7 @@ div.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2
 
 /* remove the top header */
 .visual-refresh {
-  --custom-app-top-bar-height: 0;
+  --custom-app-top-bar-height: 0pt;
 }
 
 div.sidebar_c48ade.theme-dark.images-dark
@@ -1385,4 +1390,18 @@ div.noticeRegion__23e6b.slider__4e371 {
 }
 .sidebar__5e434 > nav > ul > div > div > div:nth-child(6) {
   transform: scale(70%) translateY(-24pt);
+}
+
+/* New Fixes 1.3 */
+
+/* updated SoftX version display */
+#app-mount div.clickable__2debe.compact__2debe:after {
+  content: "SoftX " var(--softx-version);
+  display: block;
+  text-transform: none;
+  font-family: var(--font-primary);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--text-muted);
 }
